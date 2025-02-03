@@ -2,12 +2,12 @@
 Python uses PyYaml library to read and write yaml file.
 
 First of all, install PyYaml dependency.
-```
+```yaml.sh
 pip install pyyaml
 ```
 
 To read a file with single document:
-```
+```yaml.py
 import yaml
 import pprint
 
@@ -20,7 +20,7 @@ if __name__ == '__main__':
 ```
 
 To read a file with multiple documents:
-```
+```yaml.py
 import yaml
 
 with open('configs_multi.yaml', 'r') as file:
@@ -31,7 +31,7 @@ with open('configs_multi.yaml', 'r') as file:
 ```
 
 To write to yaml file:
-```
+```yaml.py
 import yaml
 
 with open('names.yaml', 'w') as file:
